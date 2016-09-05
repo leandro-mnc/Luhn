@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validação de Cartão de Crédito Luhn</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="all"/>
+    </head>
+    <body>
+        <div class="row" style="margin-top:25px">
+            <div class="container clearfix">
+                <p>Validação de Cartão de Crédito Luhn</p>
+                <div class="form-group">
+                    <label for="numero_cartao">Número do Cartão</label>
+                    <input type="text" name="numero_cartao" maxlength="19" class="form-control" id="numero_cartao" value="4012001037141112"/>
+                </div>
+                <div class="form-group">
+                    <button type="button" name="bt_valida_numero_cartao" class="btn btn-default" id="bt-valida-numero-cartao">Valida Número do Cartão</button>
+                </div>
+                <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+                <script type="text/javascript" src="luhn.js"></script>
+                <script type="text/javascript">
+                    var inputNumeroCartao = document.getElementById('numero_cartao');
+                    var luhn = new Luhn();
+                    $('#bt-valida-numero-cartao').click(function() {
+                        luhn.setNumeroCartao(inputNumeroCartao.value);
+
+                        if (luhn.numeroValido() === true) {
+                            alert('Número válido');
+                        } else {
+                            alert('Número inválido');
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
