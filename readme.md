@@ -2,7 +2,7 @@
 
 Classe para validação de número de cartão de crédito
 
-## Code Example
+## Exemplo do Código
 
 O arquivo luhn.html e lunh.php exemplificam o forma de utilização das classes.
 
