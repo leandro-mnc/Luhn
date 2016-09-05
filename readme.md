@@ -1,19 +1,19 @@
-## Validação de Número de Cartão de Crédito Luhn
+## ValidaÃ§Ã£o de NÃºmero de CartÃ£o de CrÃ©dito Luhn
 
-Classe e métodos para validação de número de cartão de crédito
+Classe para validaÃ§Ã£o de nÃºmero de cartÃ£o de crÃ©dito
 
 ## Code Example
 
-O arquivo luhn.html e lunh.php exemplificam o forma de utilização das classes.
+O arquivo luhn.html e lunh.php exemplificam o forma de utilizaÃ§Ã£o das classes.
 
-## Motivação
+## MotivaÃ§Ã£o
 
-Classe simples para aqueles que desejam uma segurança maior no processamento de números de cartão de crédito.
+Classe simples para aqueles que desejam uma seguranÃ§a maior no processamento de nÃºmeros de cartÃ£o de crÃ©dito.
 
 ## Contributors
 
-A validação é bem simples, mas se alguém quiser melhorar o código fiquem à vontade.
+A validaÃ§Ã£o Ã© bem simples, mas se alguÃ©m quiser melhorar o cÃ³digo fiquem Ã  vontade.
 
 ## License
 
-Este software está sobre os termos da GNU (General Public License)
+Este software estÃ¡ sobre os termos da GNU (General Public License)
