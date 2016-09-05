@@ -10,7 +10,7 @@ O arquivo luhn.html e lunh.php exemplificam o forma de utilização das classes.
 
 Classe simples para aqueles que desejam uma segurança maior no processamento de números de cartão de crédito.
 
-## Contributors
+## Contribuição
 
 A validação é bem simples, mas se alguém quiser melhorar o código fiquem à vontade.
 
